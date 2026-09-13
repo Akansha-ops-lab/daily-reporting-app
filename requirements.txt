@@ -1,2 +1,5 @@
-streamlit>=1.30.0
-pandas>=2.0.0
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py runserve
